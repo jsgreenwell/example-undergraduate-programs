@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- build this with students, start with isbn as field, move to attrib -->
+<bookstore>
+    <bookList>
+        <book isbn="978-0060554736">
+            <title>The Game</title>
+            <author>Neil Strauss</author>
+            <publisher>Harpercollins</publisher>
+        </book>
+        <book isbn="978-3832180577">
+            <title>Feuchtgebiete</title>
+            <author>Charlotte Roche</author>
+            <publisher>Dumont Buchverlag</publisher>
+        </book>
+    </bookList>
+    <store>Fraport Bookstore</store>
+    <location>Frankfurt Airport</location>
+</bookstore>

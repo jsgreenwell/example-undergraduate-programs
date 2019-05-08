@@ -1,0 +1,14 @@
+{
+  booklist: [
+    {
+      "isbn" : ..., 
+      "title" : ...,
+      "author" : ....,
+      "publisher" : ....,
+    },
+    { ..2nd book here.. },
+  ],
+  "store": ...
+  "location": ...
+}
+
