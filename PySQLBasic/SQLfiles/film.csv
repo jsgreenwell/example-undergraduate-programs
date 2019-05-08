@@ -1,0 +1,44 @@
+﻿Year,Length,Title,Subject,Actor,Actress,Director,Popularity,Awards,movie_id
+1982,111,"Return of Martin Guerre, The",Drama,178,,730,51,FALSE,8315
+1982,101,"Secret Policeman's Other Ball, The",Comedy,164,,,86,FALSE,8316
+1982,208,Othello,Drama,212,,,84,FALSE,8317
+1983,104,"Dead Zone, The",Horror,296,326,557,79,FALSE,8318
+1983,140,Octopussy,Action,244,327,560,68,TRUE,8319
+1983,118,"Man Who Loved Women, The",Comedy,264,348,587,67,FALSE,8320
+1983,134,Never Say Never Again,Action,166,382,643,8,FALSE,8321
+1983,60,"Best of the Big Laff Off, The",Comedy,246,402,,20,FALSE,8322
+1983,50,"Father Murphy, A Horse from Heaven",Comedy,251,441,711,28,FALSE,8323
+1983,104,Beyond the Limit,Drama,161,449,723,51,FALSE,8324
+1983,99,Risky Business,Comedy,304,464,724,28,FALSE,8325
+1983,132,Return of the Jedi,Science Fiction,207,465,731,4,FALSE,8326
+1983,95,Valley Girl,Comedy,159,466,732,30,FALSE,8327
+1983,109,"Star Chamber, The",Drama,180,467,733,3,FALSE,8328
+1983,90,Blame It on Rio,Comedy,161,468,661,10,FALSE,8329
+1983,97,Yellowbeard,Comedy,162,469,734,34,FALSE,8330
+1983,97,Breathless,Action,200,470,735,51,FALSE,8331
+1983,98,"Moon in the Gutter, The",Action,178,471,736,29,FALSE,8332
+1983,91,All the Right Moves,Drama,304,472,737,65,FALSE,8333
+1983,90,"Man with Two Brains, The",Comedy,162,473,646,68,FALSE,8334
+1983,69,"Eddie Murphy, Delirious",Comedy,246,,721,6,FALSE,8335
+1983,107,Monty Python's the Meaning of Life,Comedy,164,,618,33,FALSE,8336
+1984,140,Tartuffe,Comedy,178,349,,67,FALSE,8337
+1984,99,Dreamscape,Science Fiction,259,443,715,63,FALSE,8338
+1984,105,Beverly Hills Cop,Comedy,246,474,569,41,TRUE,8339
+1984,108,"Terminator, The",Action,277,475,669,17,TRUE,8340
+1984,96,Unfaithfully Yours,Comedy,242,471,678,73,FALSE,8341
+1984,77,"Secret Policeman's Private Parts, The",Comedy,164,,677,36,FALSE,8342
+1992,112,McQ,Action,298,,,5,FALSE,8343
+1992,134,Red River,Western,298,,,16,FALSE,8344
+1993,65,John Cleese on How to Irritate People,Comedy,164,418,,62,FALSE,8345
+1993,30,"Alfred Hitchcock Presents, Sorcerer's Apprentice",Mystery,215,476,,60,FALSE,8346
+1993,95,Honeymoon in Vegas,Comedy,158,477,712,53,FALSE,8347
+1993,104,It Started with a Kiss,Drama,194,478,,80,FALSE,8348
+1993,103,Romantic Comedy,Comedy,242,479,,8,FALSE,8349
+1993,76,Return Engagement,Drama,148,480,,26,FALSE,8350
+1993,75,Employee's Entrance,Drama,300,481,,0,FALSE,8351
+1993,90,Duel,Mystery,302,,574,48,FALSE,8352
+1993,108,"Offence, The",Mystery,166,,,6,FALSE,8353
+1993,88,Great White Death,Action,194,,,26,FALSE,8354
+1993,102,Today We Kill....Tomorrow We Die,Western,193,,,25,FALSE,8355
+1993,58,Range Feud,Western,298,,,77,FALSE,8356
+1997,109,Alien: resurrection,Science Fiction,,482,556,60,TRUE,8357

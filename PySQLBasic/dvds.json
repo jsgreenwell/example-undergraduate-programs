@@ -1,0 +1,30 @@
+[
+  {
+    "sku": 8283,
+    "title": "return of the jedi",
+    "price": 47.99, 
+    "genre": "science fiction",
+    "length": 90
+  },
+  {
+    "sku": 73891,
+    "title": "the neverending story",
+    "price": 24.99, 
+    "genre": "fantasy",
+    "length": 120
+  },
+  {
+    "sku": 27811,
+    "title": "the princess bride",
+    "price": 14.99, 
+    "genre": "fantasy",
+    "length": 90
+  },
+  {
+    "sku": 162543,
+    "title": "how i met your mother - complete series",
+    "price": 94.99, 
+    "genre": "comedy",
+    "length": 1222
+  }
+]
