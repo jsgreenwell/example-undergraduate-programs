@@ -1,0 +1,20 @@
+CREATE TABLE vehicle_type (
+    type_name VARCHAR (25),
+    CONSTRAINT pk_type PRIMARY KEY (
+        type_name
+    )
+);
+
+CREATE TABLE vehicle (
+    vin       INTEGER,
+    type_name VARCHAR        NOT NULL,
+    mpg       NUMERIC (3, 1),
+    origin    VARCHAR        CHECK (origin IN ('US', 'Europe', 'Japan', 'Other') ),
+    CONSTRAINT pk_vin PRIMARY KEY (
+        vin
+    ),
+    CONSTRAINT fk_type FOREIGN KEY (
+        type_name
+    )
+    REFERENCES vehicle_type (type_name) 
+);

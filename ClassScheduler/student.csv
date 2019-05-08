@@ -1,0 +1,12 @@
+﻿student_id,major_id,f_name,l_name,email,st_address,city,zipcode,gpa,transfer
+738201,11111,Mark,Smith,ms@student.fgcu.edu,8392 Beach View,Naples,34109,3,
+10524,12345,John,Smith,js@student.fgcu.edu,92 Mountain,Ft. Myers,33931,2,
+2544,45678,Nancy,Green,ng@student.fgcu.edu,83 Strong Island,Bonita Springs,34135,3.87,
+1124,98765,Fran ,Marks,fm@student.fgcu.edu,1247 Mount Green,Naples,34109,2.89,
+112,441165,Josiah,Greenwell,prof@fgcu.edu,65 Beach Road,Naples,34109,4,TRUE
+158874,889311,Sierra,Wash,sw@student.fgcu.edu,928 Herring Street,Ft. Myers,33931,1.23,
+9974,11111,Jill,Tracy,jt@student.fgcu.edu,123 ABC,Ft. Myers,33931,3.75,
+8884,12345,Robert,Mercadante,rm@student.fgcu.edu,123 Easyas,Ft. Myers,33931,3.2,
+698,11111,Juan,Verdes,jv@student.fgcu.edu,15 New Spring,Bonita Springs,34135,2.99,
+5557,11111,Corporal,Mustard,cm@student.fgcu.edu,152 Highwater Apt 303,Bonita Springs,34135,3.25,
+445,11111,Miss,White,mw@student.fgcu.edu,837 That place,Ft. Myers,33931,3,

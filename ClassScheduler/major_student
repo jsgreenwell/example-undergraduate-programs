@@ -1,0 +1,31 @@
+CREATE TABLE major (
+    major_id    SMALLINT     PRIMARY KEY,
+    major_name  VARCHAR (30),
+    degree_lvl  VARCHAR      CHECK ("associate" OR 
+                                    "bachelor" OR 
+                                    "masters" OR 
+                                    "doctorate" OR 
+                                    "none"),
+    certificate BOOLEAN,
+    CONSTRAINT pk_major_id PRIMARY KEY (
+        major_id
+    )
+);
+-- Have to create the major table before we can reference the foreign key
+
+CREATE TABLE student (
+    student_id INTEGER        PRIMARY KEY AUTOINCREMENT,
+    f_name     VARCHAR (25)   NOT NULL,
+    l_name     VARCHAR (25)   NOT NULL,
+    birth_date DATE           NOT NULL,
+    address    VARCHAR,
+    zipcode    NUMERIC (5, 0),-- Forces 5 & only 5 numeric char values
+    major_id   SMALLINT       NOT NULL,
+    CONSTRAINT pk_student_id PRIMARY KEY (
+        student_id
+    ),
+    CONSTRAINT fk_major_id FOREIGN KEY (
+        major_id
+    )
+    REFERENCES major (major_id) 
+);
