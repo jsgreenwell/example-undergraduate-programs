@@ -3,7 +3,29 @@ This will show the basic version of OCR processing of a log file. This is
 the most basic way to process a simple log file before we move to more 
 complicated versions using regex. It is still used quite often as its a fairly
 common use-case. It scales okay and can be used with positional - we will once.
+
+This works but the dictionary is a lot of extra steps (if you only need a list)
 '''
+
+def line_parser(l):
+  # As we have the base directory - we don't need to duplicate it in path
+  # So lets use that positional to remove the base from the path (dynamicly)
+  headers = ["l_idx", "base", "pk", "path", "time"]
+  fields = {}
+  pk = 0
+
+  for i, value in enumerate(l):
+    if i == 1:
+      fields[headers[3]] = l[3][len(value):]
+      fields[headers[i]] = value
+    elif i == 2:
+      pk = value
+    elif i == 3:
+      continue
+    else:
+      fields[headers[i]] = value
+  return pk, fields
+
 log_dict = {}
 
 with open('sample_log.txt', 'r') as log:
@@ -28,10 +50,11 @@ with open('sample_log.txt', 'r') as log:
     Two notes: 
     - split() defaults to any whitespace 
     - this gives a list which you can use, depending on need, instead of dict
+
+    k = key, e = elements
     '''
-    cur_line = line.split()
-    log_dict[cur_line[2]] = {"l_idx": cur_line[0], "base": cur_line[1], 
-        "path": cur_line[3], "time": cur_line[-1]}
+    k, e = line_parser(line.split())
+    log_dict[k] = e
 
 for l in log_dict.items():
   print("We have {}".format(l))
