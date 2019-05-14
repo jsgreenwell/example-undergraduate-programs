@@ -1,0 +1,24 @@
+You know the worst pdfs to parse? Its the ones with the Tabular data, like:
+        -----------------------------
+        Person | Role  | Location
+        Sue    | Mng   | Naples
+        Mark   | Sales | Ft. Myers
+        -----------------------------
+
+So that's what we're going to do next (assume this came from a handwritten log):
+Also this look pretty compared to how a lot of ORMs parse pdf tables
+
+-------------------------------------------------------------------------------
+       NAME             |        MAINTENCE PERFORMED    | DATE/TIME
+-------------------------------------------------------------------------------
+Sam Smith...............|Cleaned Outside Wings..........|10/25/2018 12:35
+Mark Johnson............|Cleaned Seats and Baggage......|10/25/2018 12:35
+Mark Johnson............|Cleaned Stoage and restrooms...|10/25/2018 13:45
+Sam Smith...............|Visual check of fuselage.......|10/25/2018 14:35
+Sally Rider.............|Fueled and check lubrication...|10/25/2018 16:05
+Sam Smith...............|Checked wheels for wear........|10/26/2018 09:05
+Sam Smith...............|Replaced Front RH tires (worn).|10/26/2018 09:15
+Mark Johnson............|Cleaned windows (crack found)..|10/26/2018 09:45
+Sally Rider.............|Checked windows for cracking...|10/26/2018 10:00
+Sally Rider.............|Measured crack front window....|10/26/2018 10:20
+Sally Rider.............|Aircraft placed in maintence...|10/26/2018 10:35
