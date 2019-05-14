@@ -1,0 +1,13 @@
+1      /admissions/    1    /admissions/default.asp               1:11
+2      /admissions/    2    /admissions/progrmas.asp              46:11
+2      /admissions/    3    /admissions/applications.aspx         111:25
+4      /admissions/    4    /admissions/finance.aspx              15:04
+1      /admissions/    5    /admissions/careers.aspx              1:11
+1      /academics/     6    /academics/default.aspx               6:10
+2      /academics/     7    /academics/colleges/index.aspx        8:32
+3      /academics/     8    /academics/academic_calendar.aspx     12:43
+1      /directory/     9    /directory/index.aspx                 21:59
+1      /advancement/   10   /advancement/whygive/index.aspx       5:37
+2      /advancement/   11   /advancement/whygive/index.aspx       5:37
+2      /advancement/   12   /advancement/waystogive/givenow.aspx  9:27
+2      /advancement/   13   /advancement/foundation/index.aspx    13:08
