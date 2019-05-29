@@ -1,7 +1,7 @@
 # Sample Product Database using Java, Json, and SQlite
 
 ## Description
-This is a very simple program for loading Json data using the Gson library then inserting it into a product table on a SQLite database using the "java.sql.*" ORM. It is meant for use as an example when first introducing these topics and thereby does not have full logging or error handling capabilities - though a limited amount will be added & placeholders are used to avoid injection. All the jsons and the SQLite database itself are included in the data folder.
+This is a very simple program for loading Json data using the Gson library then inserting it into a product table on a SQLite database using the "java.sql.*" ORM. It is meant for use as an example when first introducing these topics and thereby does not have full logging or error handling capabilities - though a limited amount will be added & placeholders are used to avoid injection. Json file is stored in Data folder and SQLite ProductDB database is stored in the Database folder.
 
 ## Installation
 git clone https://github.com/jsgreenwell/example-undergraduate-programs
