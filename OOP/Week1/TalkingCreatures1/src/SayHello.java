@@ -46,7 +46,7 @@ public class SayHello {
           if (greetingChoice.equals("morning")) {
             finalGreeting = eng.sayHello();
           } else if (greetingChoice.equals("night")) {
-            finalGreeting = eng.sayHello();
+            finalGreeting = eng.sayGoodbye();
           } else{
             System.out.println("You must enter 'morning' or 'night'");
           }
@@ -59,7 +59,7 @@ public class SayHello {
           if (greetingChoice.equals("morning")) {
             finalGreeting = span.sayHello();
           } else if (greetingChoice.equals("night")) {
-            finalGreeting = span.sayHello();
+            finalGreeting = span.sayGoodbye();
           } else{
             System.out.println("You must enter 'morning' or 'night'");
           }
@@ -80,7 +80,7 @@ public class SayHello {
           if (greetingChoice.equals("morning")) {
             finalGreeting = ger.sayHello();
           } else if (greetingChoice.equals("night")) {
-            finalGreeting = ger.sayHello();
+            finalGreeting = ger.sayGoodbye();
           } else{
             System.out.println("You must enter 'morning' or 'night'");
           }
@@ -89,12 +89,14 @@ public class SayHello {
             System.out.println("Valid selection needed - select 1 through 4");
             break;
         }
-      System.out.printf("In your choosen language: %s", finalGreeting);
+      System.out.printf("In your choosen language: %s\n", finalGreeting);
 
       System.out.println("Would you like to exit? (Y/N)");
       userExit = scan.next();
 
       if (userExit.equals("N") || userExit.equals("n")) {
+        // Just to show what continue does - think about this design
+        // Also, we want to exit on any non-standard answer here (or Y/y)
         continue;
       } else {
         exitFlag = false;
