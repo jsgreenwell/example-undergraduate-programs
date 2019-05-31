@@ -25,7 +25,7 @@ public class SayHello {
     Boolean exitFlag = true;
 
     while (exitFlag) {
-      String greetingChoice = "";
+      String greetingChoice;
       String finalGreeting = "";
 
       switch (ui.getLanguage()) {
