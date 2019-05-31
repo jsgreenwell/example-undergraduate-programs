@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /*
 ## Overview
 Example program to show implementation of:
@@ -23,26 +21,17 @@ interface. After that, the next step is up to you: How could this be improved?
 
 public class SayHello {
   public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in);
-
+    UserInput ui = new UserInput();
     Boolean exitFlag = true;
 
     while (exitFlag) {
-      Integer userLanguage = 0;
       String greetingChoice = "";
       String finalGreeting = "";
-      String userExit = "";
 
-      System.out.println("Welcome! Please select your language:\n" +
-          "1: English\n 2: Spanish\n 3: Latin\n 4: German\nEnter Choice: ");
-      userLanguage = scan.nextInt();
-
-      switch (userLanguage) {
+      switch (ui.getLanguage()) {
         case 1:
           English eng = new English();
-          System.out.println("Is it <morning> or <night>?\n" +
-              "Enter 'morning' or 'night': ");
-          greetingChoice = scan.next();
+          greetingChoice = ui.getGreeting();
           if (greetingChoice.equals("morning")) {
             finalGreeting = eng.sayHello();
           } else if (greetingChoice.equals("night")) {
@@ -53,9 +42,7 @@ public class SayHello {
           break;
         case 2:
           Spanish span = new Spanish();
-          System.out.println("Is it <morning> or <night>?\n" +
-              "Enter 'morning' or 'night': ");
-          greetingChoice = scan.next();
+          greetingChoice = ui.getGreeting();
           if (greetingChoice.equals("morning")) {
             finalGreeting = span.sayHello();
           } else if (greetingChoice.equals("night")) {
@@ -66,17 +53,13 @@ public class SayHello {
           break;
         case 3:
           Latin lat = new Latin();
-          System.out.println("Is it <morning> or <night>?\n" +
-              "Enter 'morning' or 'night': ");
-          greetingChoice = scan.next();
+          greetingChoice = ui.getGreeting();
           // Why we like using a ternary return statement
           finalGreeting = lat.sayHelloOrGoodbye(greetingChoice);
           break;
         case 4:
           German ger = new German();
-          System.out.println("Is it <morning> or <night>?\n" +
-              "Enter 'morning' or 'night': ");
-          greetingChoice = scan.next();
+          greetingChoice = ui.getGreeting();
           if (greetingChoice.equals("morning")) {
             finalGreeting = ger.sayHello();
           } else if (greetingChoice.equals("night")) {
@@ -91,17 +74,7 @@ public class SayHello {
         }
       System.out.printf("In your choosen language: %s\n", finalGreeting);
 
-      System.out.println("Would you like to exit? (Y/N)");
-      userExit = scan.next();
-
-      if (userExit.equals("N") || userExit.equals("n")) {
-        // Just to show what continue does - think about this design
-        // Also, we want to exit on any non-standard answer here (or Y/y)
-        continue;
-      } else {
-        exitFlag = false;
-      }
-
+      exitFlag = ui.stopProgramChoice();
     }
   }
 }
