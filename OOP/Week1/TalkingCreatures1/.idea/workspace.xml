@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f287318-b23f-42d7-bd5c-c02b7ba61f16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/SayHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SayHello.java" afterDir="false" />
-    </list>
+    <list default="true" id="2f287318-b23f-42d7-bd5c-c02b7ba61f16" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Latin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#49#50#0" expanded="true" />
                 <element signature="e#79#80#0" expanded="true" />
@@ -112,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1" />
     <option name="y" value="50" />
     <option name="width" value="1615" />
@@ -185,7 +183,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="40" width="1292" height="704" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28246754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -258,8 +255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Latin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#49#50#0" expanded="true" />
             <element signature="e#79#80#0" expanded="true" />
