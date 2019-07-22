@@ -1,8 +1,8 @@
-module TicTacToe.sample {
+module TicTacToe {
   requires javafx.fxml;
   requires javafx.controls;
   requires javafx.graphics;
   requires javafx.base;
 
-  opens sample;
+  opens greenwell.FXtictac;
 }

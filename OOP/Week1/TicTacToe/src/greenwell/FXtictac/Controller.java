@@ -1,4 +1,4 @@
-package sample;
+package greenwell.FXtictac;
 
 public class Controller {
 }
