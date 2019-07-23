@@ -1,4 +1,7 @@
 package greenwell.FXtictac;
 
-public class Controller {
+public class GameModel {
+
+
+
 }
