@@ -15,10 +15,16 @@ public class LoginModel {
   }
 
   @FXML
-  public void showLoggedIn(ActionEvent event) throws Exception {
+  public void badLogin(ActionEvent event) throws Exception {
     // You can also just println with @FXML annotation
-    // System.out.println("You've been logged in successfully");
+    // System.out.println("Your username or password was incorrect");
 
+    Alert alert = new Alert(AlertType.CONFIRMATION, "Your username or password is incorrect", ButtonType.CLOSE);
+    alert.showAndWait();
+  }
+
+  @FXML
+  public void goodLogin(ActionEvent event) throws Exception {
     Alert alert = new Alert(AlertType.CONFIRMATION, "Logged In Successfully", ButtonType.CLOSE);
     alert.showAndWait();
   }
