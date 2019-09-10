@@ -4,7 +4,7 @@
 Would go here
 
 ### Author
-Me
+Professor Greenwell
 
 ### License
 MIT License 839392...327892
