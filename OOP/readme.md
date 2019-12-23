@@ -1,6 +1,0 @@
-## Directory of projects
-
-SimpleTestFX.zip - This is just an exported zip of code that built & ran on 
-  my system so students can check installation of JavaFX.
-
-Each of the other Directories are the programs that relate to the modules (by week) in the course.
