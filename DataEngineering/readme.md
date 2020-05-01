@@ -1,3 +1,4 @@
+# Under constrution: Moving Python files out and leaving only Java & Scala examples here; Then reorganizing and cleaning up code
 ## Directory of projects
  - ClassScheduler: SQLite DB focused on just creating and running through SQL
  - JavaProductDB: Java program for handling JSON data and connecting to SQLite
